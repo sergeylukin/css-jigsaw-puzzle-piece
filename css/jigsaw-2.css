@@ -1,0 +1,54 @@
+.jigsaw2 {
+ font-size: 12px;
+  width: 6em;
+  height: 6em;
+  margin: 50px;
+  position: relative;
+  border-radius: 6%;
+  background-color: #000;
+}
+
+.jigsaw2:before {
+  content: "";
+  width: 1.8em;
+  height: 1.8em;
+  position: absolute;
+  top: 2.2em;
+  left: -.4em;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.jigsaw2:after {
+  content: "";
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: 2em;
+  left: 5.5em;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.jigsaw2 span {
+  display: block;
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: -1.5em;
+  left: 2em;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.jigsaw2 span:before {
+  content: "";
+  width: 1.8em;
+  height: 1.8em;
+  position: absolute;
+  top: 6em;
+  left: .2em;
+  border-radius: 50%;
+  background-color: #fff;
+}

@@ -1,0 +1,41 @@
+.jigsaw3 {
+ font-size: 12px;
+  width: 6em;
+  height: 6em;
+  background-color: #000;
+  margin: 50px;
+  border-radius: 6%;
+  position: relative;
+}
+
+.jigsaw3:before {
+  position: absolute;
+  top: -13px;
+  left: -15px;
+
+  width: 370px;
+  height: 444px;
+  content: ".";
+  font-size: 175px;
+  letter-spacing: 50px;
+  line-height: 0;
+  color: #fff;
+
+  background:
+    -webkit-radial-gradient(91px 50px, circle, #000 2px, transparent 0px);
+}
+
+.jigsaw3:after {
+  position: absolute;
+  top: -83px;
+  left: 15px;
+
+  width: 370px;
+  height: 444px;
+  content: ".";
+  font-size: 175px;
+  color: #fff;
+
+  background:
+    -webkit-radial-gradient(21px 77px, circle, #000 2px, transparent 0);
+}

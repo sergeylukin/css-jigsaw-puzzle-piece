@@ -1,0 +1,61 @@
+.jigsaw1 {
+ font-size: 12px; 
+  width: 6em;
+  height: 6em;
+  margin: 50px;
+  position: relative;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+}
+
+.jigsaw1,
+.jigsaw1 span {
+ background-color: #000; 
+}
+
+.jigsaw1 .t {
+ width: 2em;
+  height: 2em;
+  position: absolute;
+  top: -1.5em;
+  left: 2em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+}
+
+.jigsaw1 .r {
+ width: 2em;
+  height: 2em;
+  position: absolute;
+  top: 2em;
+  left: 5.5em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+}
+
+.jigsaw1 .b { 
+ width: 1.8em;
+  height: 1.8em;
+  position: absolute;
+  top: 4.5em;
+  left: 2.2em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+  background-color: #fff;
+}
+
+.jigsaw1 .l { 
+ width: 1.8em;
+  height: 1.8em;
+  position: absolute;
+  top: 2.2em;
+  left: -.4em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+  background-color: #fff;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Pure CSS Jigsaw puzzle piece</title>
+	<style>
+	body {
+		font-size: 100%;
+	}
+	hr {
+		border: 0;
+		background-color: #dbdbdb;
+		height: 5px;
+	}
+	a {
+		text-decoration:none;
+	}
+	</style>
+	<!-- Most cross-browser jigsaw, but not semantic -->
+	<link rel="stylesheet" href="css/jigsaw-1.css">
+	<!-- Probably most optimized jigsaw -->
+	<link rel="stylesheet" href="css/jigsaw-2.css">
+	<!-- Most semantic but unstable jigsaw -->
+	<link rel="stylesheet" href="css/jigsaw-3.css">
+</head>
+<body>
+
+	<!-- The simplest implementation but most cross-browser compatible -->
+	<div class="jigsaw1">
+	  <span class="t"></span>
+	  <span class="r"></span>
+	  <span class="b"></span>
+	  <span class="l"></span>
+	</div>
+		<hr />
+	<!-- More semantic than the first one but less compatible, still looks good -->
+	<div class="jigsaw2">
+	  <span></span>
+	</div>
+		<hr />
+	<!-- Most semantic version, but unfortunately not rendered well in most browsers -->
+	<div class="jigsaw3"></div>
+
+	<!-- GitHub fork ribbon -->
+	<a href="https://github.com/sergeylukin/css-jigsaw-puzzle-piece"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+
+</body>
+</html>

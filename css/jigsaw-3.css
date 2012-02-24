@@ -2,7 +2,7 @@
  font-size: 12px;
   width: 6em;
   height: 6em;
-  background-color: #000;
+  background-color: #0284cf;
   margin: 50px;
   border-radius: 6%;
   position: relative;
@@ -22,7 +22,7 @@
   color: #fff;
 
   background:
-    -webkit-radial-gradient(91px 50px, circle, #000 2px, transparent 0px);
+    -webkit-radial-gradient(91px 50px, circle, #0284cf 2px, transparent 0px);
 }
 
 .jigsaw3:after {
@@ -37,5 +37,5 @@
   color: #fff;
 
   background:
-    -webkit-radial-gradient(21px 77px, circle, #000 2px, transparent 0);
+    -webkit-radial-gradient(21px 77px, circle, #0284cf 2px, transparent 0);
 }

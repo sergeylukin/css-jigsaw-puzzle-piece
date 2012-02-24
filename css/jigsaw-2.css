@@ -5,7 +5,7 @@
   margin: 50px;
   position: relative;
   border-radius: 6%;
-  background-color: #000;
+  background-color: #0284cf;
 }
 
 .jigsaw2:before {
@@ -27,7 +27,7 @@
   top: 2em;
   left: 5.5em;
   border-radius: 50%;
-  background-color: #000;
+  background-color: #0284cf;
 }
 
 .jigsaw2 span {
@@ -39,7 +39,7 @@
   top: -1.5em;
   left: 2em;
   border-radius: 50%;
-  background-color: #000;
+  background-color: #0284cf;
 }
 
 .jigsaw2 span:before {
